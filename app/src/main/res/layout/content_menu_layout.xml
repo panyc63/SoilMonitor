@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".menu_layout">
+
+        <RelativeLayout
+            android:id="@+id/temphumid"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100sp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/relativetemp"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="30sp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/temp"
+                    android:layout_width="wrap_content"
+                    android:text="@string/temperature"
+                    android:textSize="28sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/temp_numb"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    android:textSize="28sp"
+                    android:paddingStart="75sp"
+                    android:layout_below="@+id/temp"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relativehumid"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="30sp"
+                android:layout_toEndOf="@id/relativetemp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/humid"
+                    android:layout_width="wrap_content"
+                    android:textSize="28sp"
+                    android:text="@string/humidity"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/humid_numb"
+                    android:textSize="28sp"
+                    android:text="@string/zero"
+                    android:paddingStart="50sp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/humid"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/menu_recycler"
+        android:layout_below="@id/temphumid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+</RelativeLayout>

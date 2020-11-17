@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "721178079596",
+    "firebase_url": "https://soil-monitoring-4e7bb.firebaseio.com",
+    "project_id": "soil-monitoring-4e7bb",
+    "storage_bucket": "soil-monitoring-4e7bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721178079596:android:c2e03ee5709a8903660349",
+        "android_client_info": {
+          "package_name": "com.example.soilmonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721178079596-f6tuasd74puopn3c2q53f35srgmbua8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soilmonitor",
+            "certificate_hash": "1fc45af1c2f4c9759a760371abb41723ee2fb2c2"
+          }
+        },
+        {
+          "client_id": "721178079596-7pvu8mhjv64f2nukoio2uejpmj4lok3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5WTJMoKtCOe3n7fMCtq6E6eVnqqP7gCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721178079596-7pvu8mhjv64f2nukoio2uejpmj4lok3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
